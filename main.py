@@ -8,7 +8,7 @@ Money_Type = int(input("Введіть номер валюти: "))
 print(" ")
 
 if Money_Type == 1:
-    Money = int(input("Введіть суму: 2"))
+    Money = int(input("Введіть суму: "))
     print(" ")
     print("Гривні", Money)
     print("Долари", round(Money/36.9, 2))
